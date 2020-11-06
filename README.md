@@ -1,35 +1,32 @@
-# BuckleScript bindings to @react-native-community/geolocation
+# `@reason-react-native/geolocation`
 
 [![Build Status](https://github.com/reason-react-native/geolocation/workflows/Build/badge.svg)](https://github.com/reason-react-native/geolocation/actions)
-[![Version](https://img.shields.io/npm/v/@reason-react-native/geolocation.svg)](https://www.npmjs.com/package/@reason-react-native/geolocation)
+[![Version](https://img.shields.io/npm/v/@reason-react-native/geolocation.svg)](https://www.npmjs.com/@reason-react-native/geolocation)
+[![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reason-react-native.github.io/discord/)
 
-These are complete BuckleScript bindings to
-[`@reason-react-native/geolocation`](https://github.com/react-native-community/react-native-geolocation),
-in Reason syntax.
+[ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
+[`@react-native-community/geolocation`](https://github.com/react-native-geolocation/react-native-geolocation).
 
-Version `x.y.z` of `@reason-react-native/geolocation` should be compatible with
-version `x.y.*` of `@react-native-community/geolocation`.
+Exposed as `ReactNativeGeolocation` module.
+
+`@reason-react-native/geolocation` X.y.\* means it's compatible with
+`@react-native-community/geolocation` X.y.\*
 
 ## Installation
 
-With `yarn`:
+When
+[`@react-native-community/geolocation`](https://github.com/react-native-geolocation/react-native-geolocation)
+is properly installed & configured by following their installation instructions,
+you can install the bindings:
 
-```shell
+```console
+npm install @reason-react-native/geolocation
+# or
 yarn add @reason-react-native/geolocation
 ```
 
-With `npm`:
-
-```shell
-npm install @reason-react-native/geolocation
-```
-
-`@react-native-community/geolocation` should be properly installed and linked.
-Please refer to the relevant
-[instructions](https://github.com/react-native-community/react-native-geolocation/blob/master/README.md).
-
 `@reason-react-native/geolocation` should be added to `bs-dependencies` in your
-`bsconfig.json`. Something like
+`bsconfig.json`:
 
 ```diff
 {
