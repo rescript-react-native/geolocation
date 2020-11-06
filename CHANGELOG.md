@@ -1,5 +1,9 @@
 # Changelog of `@reason-react-native/geolocation`
 
+## 2.0.1 - 2020-11-06
+
+rescript 8.2 compat
+
 ## 2.0.0 - 2020-04-02
 
 Initial release
