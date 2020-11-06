@@ -28,14 +28,19 @@ npm install @reason-react-native/geolocation
 Please refer to the relevant
 [instructions](https://github.com/react-native-community/react-native-geolocation/blob/master/README.md).
 
-Finally, `@reason-react-native/geolocation` should be added to `bs-dependencies`
-in `BuckleScript` configuration of the project (`bsconfig.json`). For example,
+`@reason-react-native/geolocation` should be added to `bs-dependencies` in your
+`bsconfig.json`. Something like
 
-```json
+```diff
 {
-  ...
-  "bs-dependencies": ["reason-react", "reason-react-native", "@reason-react-native/geolocation"],
-  ...
+  //...
+  "bs-dependencies": [
+    "reason-react",
+    "reason-react-native",
+    // ...
++    "@reason-react-native/geolocation"
+  ],
+  //...
 }
 ```
 
