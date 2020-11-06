@@ -21,7 +21,7 @@ type config;
 external config:
   (
     ~skipPermissionRequests: bool=?,
-    ~authorizationLevel: [@bs.string] [ | `always | `auto | `whenInUse]=?,
+    ~authorizationLevel: [ | `always | `auto | `whenInUse]=?,
     unit
   ) =>
   config;
