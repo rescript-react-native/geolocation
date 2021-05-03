@@ -1,5 +1,5 @@
 {
-  "name": "@reason-react-native/geolocation",
+  "name": "@rescript-react-native/geolocation",
   "description": "ReScript bindings for @react-native-community/geolocation.",
   "version": "2.0.2",
   "publishConfig": {
@@ -8,20 +8,18 @@
   "peerDependencies": {
     "@react-native-community/geolocation": "^2.0.0"
   },
-  "repository": "https://github.com/reason-react-native/geolocation.git",
+  "repository": "https://github.com/rescript-react-native/geolocation.git",
   "license": "MIT",
   "keywords": [
     "rescript",
-    "reason",
-    "reasonml",
-    "bucklescript",
     "react-native",
     "geolocation"
   ],
   "files": [
     "*.md",
     "bsconfig.json",
-    "src/**/*.re",
+    "src/**/*.res",
+    "src/**/*.resi",
     "src/**/*.js",
     "!src/**/*.bs.js"
   ],
@@ -38,7 +36,7 @@
     "release": "npmpub"
   },
   "devDependencies": {
-    "bs-platform": "^8.2.0",
+    "bs-platform": "^9.0.0",
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
     "npmpub": "^5.0.0",
